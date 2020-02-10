@@ -1,0 +1,35 @@
+#quizfrontpage {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.quizpage {
+    background-color: rgb(127, 229, 255);
+}
+
+.quizbutton {
+    border-color: black;
+    margin: 10px;
+}
+
+.quizoption {
+    border-color: darkviolet;
+    margin: 5px;
+    
+}
+
+.incorrect {
+    text-emphasis: none;
+}
+
+
+.correct {
+    text-emphasis: none;
+}

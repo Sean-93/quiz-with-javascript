@@ -1,32 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript Quiz!!!</title>
 
     <!-- link to bootstrap -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
     <!-- link to custom css -->
 
-    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="styles.css" />
 
+  </head>
 
-</head>
-<body>
-    
-</body>
+  <body>
+    <div class="container">
+      <div id="quizfrontpage" class="row, quizpage">
+        <div class="col align-self-start"></div>
+        <div class="col align-self-center">
+          <!-- Content here -->
+          <h3>
+            Coding Quiz Challenge
+          </h3>
 
-<!-- link to bootstrap's JS, Popper.js, and jQuery -->
+          <p class>
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your score
+            by ten seconds!
+          </p>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          <div class="btn btn-primary quizbutton">
+            Start Quiz
+          </div>
+        </div>
 
-<!-- link to custom external javascript file -->
+        <div class="col align-self-end"></div>
+      </div>
 
-<script src="app.js"></script>
+      <div class="row, quizpage">
+        
+        <div class="col">
+          <!-- Content here -->
+          <h3 class=>
 
-</html>
+            Commonly used data types DO NOT include:
+
+          </h3>
+
+          <ol>
+            <li class="btn btn-primary quizoption">strings</li>
+            <br>
+            <li class="btn btn-primary quizoption">booleans</li>
+            <br>
+            <li class="btn btn-primary quizoption">alerts</li>
+            <br>
+            <li class="btn btn-primary quizoption">numbers</li>
+            <br>
+          </ol>
+
+          <footer class="border-top font-italic text-success">
+            Correct!
+          </footer>
+
+          <footer class="border-top font-italic text-danger">
+            False!
+          </footer>
+          
+        </div>
+
+        
+      </div>
+
+      <div class="row, quizpage">
+        
+        <div class="col">
+          <!-- Content here -->
+          <h3 class=>
+
+            The condition in an if/else statement is enclosed within _____
+
+          </h3>
+
+          <ol>
+            <li class="btn btn-primary quizoption">quotes</li>
+            <br>
+            <li class="btn btn-primary quizoption">curly brackets</li>
+            <br>
+            <li class="btn btn-primary quizoption">parentheses</li>
+            <br>
+            <li class="btn btn-primary quizoption">square brackets</li>
+            <br>
+          </ol>
+
+          <footer class="border-top font-italic text-success">
+            Correct!
+          </footer>
+
+          <footer class="border-top font-italic text-danger">
+            False!
+          </footer>
+          
+        </div>
+
+        
+      </div>
+
+      <div class="row, quizpage">
+        
+        <div class="col">
+          <!-- Content here -->
+          <h3 class=>
+
+            Arrays in JavaScript can be used to store _____
+
+          </h3>
+
+          <ol>
+            <li class="btn btn-primary quizoption">numbers and strings</li>
+            <br>
+            <li class="btn btn-primary quizoption">other arrays</li>
+            <br>
+            <li class="btn btn-primary quizoption">booleans</li>
+            <br>
+            <li class="btn btn-primary quizoption">all of the above</li>
+            <br>
+          </ol>
+
+          <footer class="border-top font-italic text-success">
+            Correct!
+          </footer>
+
+          <footer class="border-top font-italic text-danger">
+            False!
+          </footer>
+          
+        </div>
+
+        
+      </div>
+      <div class="row, quizpage">
+        
+        <div class="col">
+          <!-- Content here -->
+          <h3 class=>
+
+            String values must be enlosed within _____ when being assigned to variables.
+
+          </h3>
+
+          <ol>
+            <li class="btn btn-primary quizoption">commas</li>
+            <br>
+            <li class="btn btn-primary quizoption">curly brackets</li>
+            <br>
+            <li class="btn btn-primary quizoption">quotes</li>
+            <br>
+            <li class="btn btn-primary quizoption">parentheses</li>
+            <br>
+          </ol>
+
+          <footer class="border-top font-italic text-success">
+            Correct!
+          </footer>
+
+          <footer class="border-top font-italic text-danger">
+            False!
+          </footer>
+          
+        </div>
+
+        
+      </div>
+      <div class="row, quizpage">
+        
+        <div class="col">
+          <!-- Content here -->
+          <h3 class=>
+
+            A very useful tool used during development and debugging for printing content to the debugger is:
+
+          </h3>
+
+          <ol>
+            <li class="btn btn-primary quizoption">javascript</li>
+            <br>
+            <li class="btn btn-primary quizoption">terminal/bash</li>
+            <br>
+            <li class="btn btn-primary quizoption">for loops</li>
+            <br>
+            <li class="btn btn-primary quizoption">console.log</li>
+            <br>
+          </ol>
+
+          <footer class="border-top font-italic text-success">
+            Correct!
+          </footer>
+
+          <footer class="border-top font-italic text-danger">
+            False!
+          </footer>
+          
+        </div>
+
+        
+        <div class="row, quizpage">
+        
+          <div class="col">
+            <!-- Content here -->
+            <h3 class=>
+  
+              All Done!
+
+            </h3>
+            <P>
+              Your final score is ""
+            </P>
+
+            <div class="form-row">
+              
+            </div>
+            
+          </div>
+  
+          
+        </div>
+        
+      </div>
+        
+      </body>
